@@ -1,0 +1,45 @@
+2025-03-20 13:48:27,092 - INFO - Initializing browser...
+2025-03-20 13:48:27,909 - INFO - Browser initialized successfully
+2025-03-20 13:48:27,909 - INFO - Navigating to http://localhost:5174
+2025-03-20 13:48:28,007 - ERROR - Error navigating to http://localhost:5174: Message: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=134.0.6998.118)
+Stacktrace:
+0   chromedriver                        0x0000000100ebd798 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000100eb5d70 cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100a09ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000100a0243c cxxbridge1$string$len + 61588
+4   chromedriver                        0x00000001009f4624 cxxbridge1$string$len + 4732
+5   chromedriver                        0x00000001009f6004 cxxbridge1$string$len + 11356
+6   chromedriver                        0x00000001009f4a8c cxxbridge1$string$len + 5860
+7   chromedriver                        0x00000001009f4400 cxxbridge1$string$len + 4184
+8   chromedriver                        0x00000001009f414c cxxbridge1$string$len + 3492
+9   chromedriver                        0x00000001009f1e64 chromedriver + 188004
+10  chromedriver                        0x00000001009f2988 chromedriver + 190856
+11  chromedriver                        0x0000000100a0ce58 cxxbridge1$string$len + 105136
+12  chromedriver                        0x0000000100a93198 cxxbridge1$string$len + 654832
+13  chromedriver                        0x0000000100a92678 cxxbridge1$string$len + 651984
+14  chromedriver                        0x0000000100a4535c cxxbridge1$string$len + 335796
+15  chromedriver                        0x0000000100e82c68 cxxbridge1$str$ptr + 2545532
+16  chromedriver                        0x0000000100e85f34 cxxbridge1$str$ptr + 2558536
+17  chromedriver                        0x0000000100e62c98 cxxbridge1$str$ptr + 2414508
+18  chromedriver                        0x0000000100e86794 cxxbridge1$str$ptr + 2560680
+19  chromedriver                        0x0000000100e53b34 cxxbridge1$str$ptr + 2352712
+20  chromedriver                        0x0000000100ea63f0 cxxbridge1$str$ptr + 2690820
+21  chromedriver                        0x0000000100ea6578 cxxbridge1$str$ptr + 2691212
+22  chromedriver                        0x0000000100eb59e4 cxxbridge1$str$ptr + 2753784
+23  libsystem_pthread.dylib             0x0000000183afc2e4 _pthread_start + 136
+24  libsystem_pthread.dylib             0x0000000183af70fc thread_start + 8
+
+2025-03-20 13:48:28,009 - INFO - Closing browser
+2025-03-20 13:49:07,748 - INFO - Initializing browser...
+2025-03-20 13:49:08,387 - INFO - Browser initialized successfully
+2025-03-20 13:49:08,387 - INFO - Navigating to http://localhost:5174
+2025-03-20 13:49:10,608 - INFO - Screenshot saved to form_screenshots/full_page.png
+2025-03-20 13:49:10,628 - INFO - Found form types: ['Login Form', 'Signup Form', 'Activity Form']
+2025-03-20 13:49:10,628 - INFO - Clicking on Login Form button
+2025-03-20 13:49:11,805 - INFO - Screenshot saved to form_screenshots/login_form_form.png
+2025-03-20 13:49:11,869 - INFO - Clicking on Signup Form button
+2025-03-20 13:49:13,044 - INFO - Screenshot saved to form_screenshots/signup_form_form.png
+2025-03-20 13:49:13,306 - INFO - Clicking on Activity Form button
+2025-03-20 13:49:14,486 - INFO - Screenshot saved to form_screenshots/activity_form_form.png
+2025-03-20 13:49:14,753 - INFO - Closing browser

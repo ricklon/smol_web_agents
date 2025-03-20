@@ -1,0 +1,295 @@
+2025-03-19 21:39:05,909 - INFO - Initializing Chrome browser...
+2025-03-19 21:39:05,910 - INFO - ====== WebDriver manager ======
+2025-03-19 21:39:06,086 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 21:41:17,089 - INFO - Initializing Chrome browser...
+2025-03-19 21:41:17,089 - INFO - ====== WebDriver manager ======
+2025-03-19 21:41:17,193 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 21:56:30,979 - INFO - Initializing Chrome browser...
+2025-03-19 21:56:30,981 - INFO - ====== WebDriver manager ======
+2025-03-19 21:56:31,133 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 21:59:10,225 - INFO - Initializing Chrome browser...
+2025-03-19 21:59:10,226 - INFO - ====== WebDriver manager ======
+2025-03-19 21:59:10,394 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 21:59:30,397 - INFO - Initializing Chrome browser...
+2025-03-19 21:59:30,398 - INFO - ====== WebDriver manager ======
+2025-03-19 21:59:30,491 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:02:59,577 - INFO - Initializing Chrome browser...
+2025-03-19 22:02:59,578 - INFO - ====== WebDriver manager ======
+2025-03-19 22:02:59,693 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:04:35,058 - INFO - Initializing Chrome browser...
+2025-03-19 22:04:35,059 - INFO - ====== WebDriver manager ======
+2025-03-19 22:04:35,173 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:26:09,564 - INFO - Initializing Chrome browser...
+2025-03-19 22:26:09,565 - INFO - ====== WebDriver manager ======
+2025-03-19 22:26:09,790 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:34:44,186 - INFO - Initializing Chrome browser...
+2025-03-19 22:34:44,188 - INFO - ====== WebDriver manager ======
+2025-03-19 22:34:44,356 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:34:44,399 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:34:44,436 - INFO - Driver [/Users/rianders/.wdm/drivers/chromedriver/mac64/134.0.6998.90/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-19 22:34:45,808 - INFO - Browser initialized successfully!
+2025-03-19 22:34:56,563 - INFO - Initializing Chrome browser...
+2025-03-19 22:34:56,564 - INFO - ====== WebDriver manager ======
+2025-03-19 22:34:56,728 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:34:56,762 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:34:56,791 - INFO - Driver [/Users/rianders/.wdm/drivers/chromedriver/mac64/134.0.6998.90/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-19 22:34:57,479 - INFO - Browser initialized successfully!
+2025-03-19 22:35:06,146 - INFO - Initializing Chrome browser...
+2025-03-19 22:35:06,146 - INFO - ====== WebDriver manager ======
+2025-03-19 22:35:06,274 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:35:06,329 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:35:06,383 - INFO - Driver [/Users/rianders/.wdm/drivers/chromedriver/mac64/134.0.6998.90/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-19 22:35:07,081 - INFO - Browser initialized successfully!
+2025-03-19 22:35:07,081 - INFO - Initializing agent with model: meta-llama/Llama-3.3-70B-Instruct
+2025-03-19 22:35:07,088 - INFO - Agent created successfully
+2025-03-19 22:35:07,088 - INFO - Setting up agent with helium imports
+2025-03-19 22:35:07,090 - INFO - Successfully imported helium
+2025-03-19 22:35:21,471 - INFO - Taking screenshot for step 1
+2025-03-19 22:35:23,362 - INFO - Captured browser screenshot: (1000, 883) pixels
+2025-03-19 22:35:23,393 - INFO - Screenshot saved to disk: screenshots/step_1_20250319_223523.png
+2025-03-19 22:35:23,398 - INFO - Completed step 1/15: Thinking...
+2025-03-19 22:35:24,050 - INFO - Taking screenshot for step 2
+2025-03-19 22:35:25,630 - INFO - Captured browser screenshot: (1000, 883) pixels
+2025-03-19 22:35:25,657 - INFO - Screenshot saved to disk: screenshots/step_2_20250319_223525.png
+2025-03-19 22:35:25,661 - INFO - Completed step 2/15: Thinking...
+2025-03-19 22:35:25,661 - ERROR - Error running task 'Wikipedia Search': Error in generating model output:
+422 Client Error: Unprocessable Entity for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.3-70B-Instruct/v1/chat/completions (Request ID: Root=1-67db7eeb-271795911a394ee9081285f3;734fa3e3-5e9c-409d-99d9-7ac0a1819334)
+
+Input validation error: `inputs` tokens + `max_new_tokens` must be <= 131072. Given: 493021 `inputs` tokens and 0 `max_new_tokens`
+{"error":"Input validation error: `inputs` tokens + `max_new_tokens` must be <= 131072. Given: 493021 `inputs` tokens and 0 `max_new_tokens`","error_type":"validation"}
+
+2025-03-19 22:35:41,587 - INFO - Initializing Chrome browser...
+2025-03-19 22:35:41,588 - INFO - ====== WebDriver manager ======
+2025-03-19 22:35:41,758 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:35:41,794 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:35:41,827 - INFO - Driver [/Users/rianders/.wdm/drivers/chromedriver/mac64/134.0.6998.90/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-19 22:35:43,052 - INFO - Browser initialized successfully!
+2025-03-19 22:35:43,053 - INFO - Initializing agent with model: meta-llama/Llama-3.3-70B-Instruct
+2025-03-19 22:35:43,060 - INFO - Agent created successfully
+2025-03-19 22:35:43,060 - INFO - Setting up agent with helium imports
+2025-03-19 22:35:43,062 - INFO - Successfully imported helium
+2025-03-19 22:35:50,045 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/trending_page.png
+2025-03-19 22:35:50,046 - INFO - Taking screenshot for step 1
+2025-03-19 22:35:51,632 - INFO - Captured browser screenshot: (1000, 884) pixels
+2025-03-19 22:35:51,647 - INFO - Screenshot saved to disk: screenshots/step_1_20250319_223551.png
+2025-03-19 22:35:51,652 - INFO - Completed step 1/25: Thinking...
+2025-03-19 22:37:02,553 - INFO - Taking screenshot for step 2
+2025-03-19 22:37:04,115 - ERROR - Error taking screenshot: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.118)
+Stacktrace:
+0   chromedriver                        0x0000000104f65798 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000104f5dd70 cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104ab1ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x0000000104a9afa0 chromedriver + 192416
+4   chromedriver                        0x0000000104abe820 cxxbridge1$string$len + 144504
+5   chromedriver                        0x0000000104b215d8 cxxbridge1$string$len + 549424
+6   chromedriver                        0x0000000104b3a178 cxxbridge1$string$len + 650704
+7   chromedriver                        0x0000000104aed35c cxxbridge1$string$len + 335796
+8   chromedriver                        0x0000000104f2ac68 cxxbridge1$str$ptr + 2545532
+9   chromedriver                        0x0000000104f2df34 cxxbridge1$str$ptr + 2558536
+10  chromedriver                        0x0000000104f0ac98 cxxbridge1$str$ptr + 2414508
+11  chromedriver                        0x0000000104f2e794 cxxbridge1$str$ptr + 2560680
+12  chromedriver                        0x0000000104efbb34 cxxbridge1$str$ptr + 2352712
+13  chromedriver                        0x0000000104f4e3f0 cxxbridge1$str$ptr + 2690820
+14  chromedriver                        0x0000000104f4e578 cxxbridge1$str$ptr + 2691212
+15  chromedriver                        0x0000000104f5d9e4 cxxbridge1$str$ptr + 2753784
+16  libsystem_pthread.dylib             0x0000000183afc2e4 _pthread_start + 136
+17  libsystem_pthread.dylib             0x0000000183af70fc thread_start + 8
+
+2025-03-19 22:37:04,118 - INFO - Completed step 2/25: Thinking...
+2025-03-19 22:37:07,977 - INFO - Taking screenshot for step 3
+2025-03-19 22:37:09,485 - ERROR - Error taking screenshot: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000104f65798 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000104f5dd70 cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104ab1d1c cxxbridge1$string$len + 92532
+3   chromedriver                        0x0000000104aec6d4 cxxbridge1$string$len + 332588
+4   chromedriver                        0x0000000104b14f50 cxxbridge1$string$len + 498600
+5   chromedriver                        0x0000000104b14250 cxxbridge1$string$len + 495272
+6   chromedriver                        0x0000000104a81cd8 chromedriver + 89304
+7   chromedriver                        0x0000000104f2ac68 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x0000000104f2df34 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x0000000104f0ac98 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x0000000104f2e794 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000104efbb34 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x0000000104a806d4 chromedriver + 83668
+13  dyld                                0x000000018377c274 start + 2840
+
+2025-03-19 22:37:09,488 - INFO - Completed step 3/25: Thinking...
+2025-03-19 22:37:12,896 - INFO - Taking screenshot for step 4
+2025-03-19 22:37:14,402 - ERROR - Error taking screenshot: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000104f65798 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000104f5dd70 cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104ab1d1c cxxbridge1$string$len + 92532
+3   chromedriver                        0x0000000104aec6d4 cxxbridge1$string$len + 332588
+4   chromedriver                        0x0000000104b14f50 cxxbridge1$string$len + 498600
+5   chromedriver                        0x0000000104b14250 cxxbridge1$string$len + 495272
+6   chromedriver                        0x0000000104a81cd8 chromedriver + 89304
+7   chromedriver                        0x0000000104f2ac68 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x0000000104f2df34 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x0000000104f0ac98 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x0000000104f2e794 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000104efbb34 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x0000000104a806d4 chromedriver + 83668
+13  dyld                                0x000000018377c274 start + 2840
+
+2025-03-19 22:37:14,403 - INFO - Completed step 4/25: Thinking...
+2025-03-19 22:37:18,526 - INFO - Navigating back to previous page
+2025-03-19 22:37:18,530 - INFO - Taking screenshot for step 5
+2025-03-19 22:37:20,039 - ERROR - Error taking screenshot: Message: invalid session id
+Stacktrace:
+0   chromedriver                        0x0000000104f65798 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000104f5dd70 cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000104ab1d1c cxxbridge1$string$len + 92532
+3   chromedriver                        0x0000000104aec6d4 cxxbridge1$string$len + 332588
+4   chromedriver                        0x0000000104b14f50 cxxbridge1$string$len + 498600
+5   chromedriver                        0x0000000104b14250 cxxbridge1$string$len + 495272
+6   chromedriver                        0x0000000104a81cd8 chromedriver + 89304
+7   chromedriver                        0x0000000104f2ac68 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x0000000104f2df34 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x0000000104f0ac98 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x0000000104f2e794 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000104efbb34 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x0000000104a806d4 chromedriver + 83668
+13  dyld                                0x000000018377c274 start + 2840
+
+2025-03-19 22:37:20,041 - INFO - Completed step 5/25: Thinking...
+2025-03-19 22:37:24,052 - INFO - Taking screenshot for step 6
+2025-03-19 22:37:29,495 - INFO - Initializing Chrome browser...
+2025-03-19 22:37:29,496 - INFO - ====== WebDriver manager ======
+2025-03-19 22:37:29,651 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:37:29,686 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-19 22:37:29,714 - INFO - Driver [/Users/rianders/.wdm/drivers/chromedriver/mac64/134.0.6998.90/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-19 22:37:30,533 - INFO - Browser initialized successfully!
+2025-03-19 22:37:30,533 - INFO - Initializing agent with model: meta-llama/Llama-3.3-70B-Instruct
+2025-03-19 22:37:30,541 - INFO - Agent created successfully
+2025-03-19 22:37:30,541 - INFO - Setting up agent with helium imports
+2025-03-19 22:37:30,544 - INFO - Successfully imported helium
+2025-03-19 22:37:36,548 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/trending_page.png
+2025-03-19 22:37:36,548 - INFO - Taking screenshot for step 1
+2025-03-19 22:37:38,126 - INFO - Captured browser screenshot: (1000, 884) pixels
+2025-03-19 22:37:38,143 - INFO - Screenshot saved to disk: screenshots/step_1_20250319_223738.png
+2025-03-19 22:37:38,147 - INFO - Completed step 1/25: Thinking...
+2025-03-19 22:38:36,756 - INFO - Taking screenshot for step 2
+2025-03-19 22:38:38,364 - INFO - Captured browser screenshot: (1000, 884) pixels
+2025-03-19 22:38:38,379 - INFO - Screenshot saved to disk: screenshots/step_2_20250319_223838.png
+2025-03-19 22:38:38,382 - INFO - Completed step 2/25: Thinking...
+2025-03-19 22:38:38,778 - INFO - Taking screenshot for step 3
+2025-03-19 22:38:40,355 - INFO - Captured browser screenshot: (1000, 884) pixels
+2025-03-19 22:38:40,382 - INFO - Screenshot saved to disk: screenshots/step_3_20250319_223840.png
+2025-03-19 22:38:40,386 - INFO - Completed step 3/25: Thinking...
+2025-03-19 22:38:40,386 - ERROR - Error running task 'GitHub Trending Search': Error in generating model output:
+422 Client Error: Unprocessable Entity for url: https://router.huggingface.co/hf-inference/models/meta-llama/Llama-3.3-70B-Instruct/v1/chat/completions (Request ID: Root=1-67db7fae-0eb83a9467cbe77310edd692;c8730e01-020f-465a-9211-928d0fff5b40)
+
+Input validation error: `inputs` tokens + `max_new_tokens` must be <= 131072. Given: 250481 `inputs` tokens and 0 `max_new_tokens`
+{"error":"Input validation error: `inputs` tokens + `max_new_tokens` must be <= 131072. Given: 250481 `inputs` tokens and 0 `max_new_tokens`","error_type":"validation"}
+
+2025-03-20 11:25:55,162 - INFO - Initializing Chrome browser...
+2025-03-20 11:25:55,164 - INFO - ====== WebDriver manager ======
+2025-03-20 11:25:55,286 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 11:25:55,352 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 11:25:55,386 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 11:25:55,449 - INFO - WebDriver version 134.0.6998.90 selected
+2025-03-20 11:25:55,449 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.90/mac-arm64/chromedriver-mac-arm64.zip
+2025-03-20 11:25:55,449 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/134.0.6998.90/mac-arm64/chromedriver-mac-arm64.zip
+2025-03-20 11:25:55,814 - INFO - Driver downloading response is 200
+2025-03-20 11:25:55,995 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 11:25:56,059 - INFO - Driver has been saved in cache [/Users/rianders/.wdm/drivers/chromedriver/mac64/134.0.6998.90]
+2025-03-20 11:25:57,307 - INFO - Browser initialized successfully!
+2025-03-20 12:07:22,848 - INFO - Initializing Chrome browser...
+2025-03-20 12:07:22,849 - INFO - ====== WebDriver manager ======
+2025-03-20 12:07:23,008 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 12:07:23,067 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 12:07:23,102 - INFO - Driver [/Users/rianders/.wdm/drivers/chromedriver/mac64/134.0.6998.90/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-20 12:07:23,903 - INFO - Browser initialized successfully!
+2025-03-20 12:07:23,903 - INFO - Initializing agent with model: meta-llama/Llama-3.3-70B-Instruct
+2025-03-20 12:07:23,910 - INFO - Agent created successfully
+2025-03-20 12:07:23,910 - INFO - Setting up agent with helium imports
+2025-03-20 12:07:23,912 - INFO - Successfully imported helium
+2025-03-20 12:07:29,390 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/localhost_page.png
+2025-03-20 12:07:29,391 - INFO - Taking screenshot for step 1
+2025-03-20 12:07:30,958 - INFO - Captured browser screenshot: (1000, 882) pixels
+2025-03-20 12:07:30,970 - INFO - Screenshot saved to disk: screenshots/step_1_20250320_120730.png
+2025-03-20 12:07:30,974 - INFO - Completed step 1/15: Thinking...
+2025-03-20 12:07:59,853 - INFO - Taking screenshot for step 2
+2025-03-20 12:08:01,428 - INFO - Captured browser screenshot: (1000, 882) pixels
+2025-03-20 12:08:01,440 - INFO - Screenshot saved to disk: screenshots/step_2_20250320_120801.png
+2025-03-20 12:08:01,444 - INFO - Completed step 2/15: Thinking...
+2025-03-20 12:08:56,975 - INFO - Searching for text: 'form' (match #1)
+2025-03-20 12:08:57,498 - INFO - Found 4 matches for 'form'. Focused on element 1 of 4
+2025-03-20 12:08:57,500 - INFO - Taking screenshot for step 3
+2025-03-20 12:08:59,082 - INFO - Captured browser screenshot: (1000, 882) pixels
+2025-03-20 12:08:59,094 - INFO - Screenshot saved to disk: screenshots/step_3_20250320_120859.png
+2025-03-20 12:08:59,099 - INFO - Completed step 3/15: Thinking...
+2025-03-20 12:09:41,451 - INFO - Searching for text: 'form' (match #1)
+2025-03-20 12:09:41,973 - INFO - Found 4 matches for 'form'. Focused on element 1 of 4
+2025-03-20 12:09:41,975 - INFO - Taking screenshot for step 4
+2025-03-20 12:09:43,543 - INFO - Captured browser screenshot: (1000, 882) pixels
+2025-03-20 12:09:43,555 - INFO - Screenshot saved to disk: screenshots/step_4_20250320_120943.png
+2025-03-20 12:09:43,558 - INFO - Completed step 4/15: Thinking...
+2025-03-20 12:10:28,303 - INFO - Searching for text: 'form' (match #2)
+2025-03-20 12:10:28,826 - INFO - Found 4 matches for 'form'. Focused on element 2 of 4
+2025-03-20 12:10:28,828 - INFO - Taking screenshot for step 5
+2025-03-20 12:10:30,402 - INFO - Captured browser screenshot: (1000, 882) pixels
+2025-03-20 12:10:30,414 - INFO - Screenshot saved to disk: screenshots/step_5_20250320_121030.png
+2025-03-20 12:10:30,418 - INFO - Completed step 5/15: Thinking...
+2025-03-20 12:11:01,623 - INFO - Taking screenshot for step 6
+2025-03-20 12:15:34,209 - INFO - Initializing Chrome browser...
+2025-03-20 12:15:34,210 - INFO - ====== WebDriver manager ======
+2025-03-20 12:15:34,388 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 12:15:34,423 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 12:15:34,450 - INFO - Driver [/Users/rianders/.wdm/drivers/chromedriver/mac64/134.0.6998.90/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-20 12:15:35,215 - INFO - Browser initialized successfully!
+2025-03-20 12:15:35,215 - INFO - Initializing agent with model: meta-llama/Llama-3.3-70B-Instruct
+2025-03-20 12:15:35,222 - INFO - Agent created successfully
+2025-03-20 12:15:35,222 - INFO - Setting up agent with helium imports
+2025-03-20 12:15:35,224 - INFO - Successfully imported helium
+2025-03-20 12:15:43,605 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/login_form.png
+2025-03-20 12:15:43,957 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/signup_form.png
+2025-03-20 12:15:44,293 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/activity_form.png
+2025-03-20 12:15:44,293 - INFO - Taking screenshot for step 1
+2025-03-20 12:15:45,846 - INFO - Captured browser screenshot: (1000, 882) pixels
+2025-03-20 12:15:45,858 - INFO - Screenshot saved to disk: screenshots/step_1_20250320_121545.png
+2025-03-20 12:15:45,862 - INFO - Completed step 1/15: Thinking...
+2025-03-20 12:16:13,377 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/login_form.png
+2025-03-20 12:16:13,725 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/signup_form.png
+2025-03-20 12:16:14,056 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/activity_form.png
+2025-03-20 12:16:14,057 - INFO - Taking screenshot for step 2
+2025-03-20 12:16:15,617 - INFO - Captured browser screenshot: (1000, 882) pixels
+2025-03-20 12:16:15,631 - INFO - Screenshot saved to disk: screenshots/step_2_20250320_121615.png
+2025-03-20 12:16:15,634 - INFO - Completed step 2/15: Thinking...
+2025-03-20 12:17:01,776 - INFO - Taking screenshot for step 3
+2025-03-20 12:17:03,284 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x1039a2090>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/200b0f68d0cb47eeefc44dc0b6181c7d/screenshot
+2025-03-20 12:17:03,287 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106d42f60>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/200b0f68d0cb47eeefc44dc0b6181c7d/screenshot
+2025-03-20 12:17:03,288 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106d42d20>: Failed to establish a new connection: [Errno 61] Connection refused')': /session/200b0f68d0cb47eeefc44dc0b6181c7d/screenshot
+2025-03-20 12:17:03,290 - ERROR - Error taking screenshot: HTTPConnectionPool(host='localhost', port=60691): Max retries exceeded with url: /session/200b0f68d0cb47eeefc44dc0b6181c7d/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x106d432f0>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-03-20 12:17:03,303 - INFO - Completed step 3/15: Thinking...
+2025-03-20 12:17:26,351 - INFO - Initializing Chrome browser...
+2025-03-20 12:17:26,352 - INFO - ====== WebDriver manager ======
+2025-03-20 12:17:26,517 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 12:17:26,570 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 12:17:26,598 - INFO - Driver [/Users/rianders/.wdm/drivers/chromedriver/mac64/134.0.6998.90/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-20 12:17:27,356 - INFO - Browser initialized successfully!
+2025-03-20 12:17:27,356 - INFO - Initializing agent with model: meta-llama/Llama-3.3-70B-Instruct
+2025-03-20 12:17:27,362 - INFO - Agent created successfully
+2025-03-20 12:17:27,362 - INFO - Setting up agent with helium imports
+2025-03-20 12:17:27,365 - INFO - Successfully imported helium
+2025-03-20 12:17:31,686 - INFO - Taking screenshot for step 1
+2025-03-20 12:17:33,261 - INFO - Captured browser screenshot: (1000, 882) pixels
+2025-03-20 12:17:33,274 - INFO - Screenshot saved to disk: screenshots/step_1_20250320_121733.png
+2025-03-20 12:17:33,278 - INFO - Completed step 1/15: Thinking...
+2025-03-20 12:17:55,280 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/login_form.png
+2025-03-20 12:17:55,617 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/signup_form.png
+2025-03-20 12:17:55,957 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/activity_form.png
+2025-03-20 12:17:55,958 - INFO - Taking screenshot for step 2
+2025-03-20 12:17:57,543 - INFO - Captured browser screenshot: (1000, 882) pixels
+2025-03-20 12:17:57,557 - INFO - Screenshot saved to disk: screenshots/step_2_20250320_121757.png
+2025-03-20 12:17:57,561 - INFO - Completed step 2/15: Thinking...
+2025-03-20 12:19:57,633 - INFO - Taking screenshot for step 3
+2025-03-20 12:19:59,206 - INFO - Captured browser screenshot: (1000, 882) pixels
+2025-03-20 12:19:59,220 - INFO - Screenshot saved to disk: screenshots/step_3_20250320_121959.png
+2025-03-20 12:19:59,225 - INFO - Completed step 3/15: Thinking...
+2025-03-20 12:19:59,225 - ERROR - Error running task 'Find Forms': Error in generating model output:
+(ReadTimeoutError("HTTPSConnectionPool(host='router.huggingface.co', port=443): Read timed out. (read timeout=120)"), '(Request ID: bbe0f814-63e3-411e-857f-6d156dae6842)')

@@ -1,0 +1,16 @@
+[project]
+name = "smol-web-agents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "colorama>=0.4.6",
+    "gradio>=5.22.0",
+    "helium>=5.1.1",
+    "pillow>=11.1.0",
+    "selenium>=4.29.0",
+    "smolagents>=1.11.0",
+    "transformers>=4.49.0",
+    "webdriver-manager>=4.0.2",
+]
