@@ -1,0 +1,331 @@
+{
+  "success": true,
+  "url": "http://localhost:5174",
+  "forms": [
+    {
+      "name": "Login Form",
+      "id": "login_form",
+      "fields": [
+        {
+          "name": "email",
+          "id": "email",
+          "type": "email",
+          "label": "",
+          "required": true,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "password",
+          "id": "password",
+          "type": "password",
+          "label": "",
+          "required": true,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "rememberMe",
+          "id": "",
+          "type": "checkbox",
+          "label": "Remember me",
+          "required": false,
+          "options": [
+            "on"
+          ],
+          "placeholder": ""
+        }
+      ],
+      "submit_button": "Log In"
+    },
+    {
+      "name": "Signup Form",
+      "id": "signup_form",
+      "fields": [
+        {
+          "name": "firstName",
+          "id": "firstName",
+          "type": "text",
+          "label": "",
+          "required": true,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "lastName",
+          "id": "lastName",
+          "type": "text",
+          "label": "",
+          "required": true,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "email",
+          "id": "email",
+          "type": "email",
+          "label": "",
+          "required": true,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "phone",
+          "id": "phone",
+          "type": "tel",
+          "label": "",
+          "required": false,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "password",
+          "id": "password",
+          "type": "password",
+          "label": "",
+          "required": true,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "confirmPassword",
+          "id": "confirmPassword",
+          "type": "password",
+          "label": "",
+          "required": true,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "birthDate",
+          "id": "birthDate",
+          "type": "date",
+          "label": "",
+          "required": false,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "occupation",
+          "id": "occupation",
+          "type": "text",
+          "label": "",
+          "required": false,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "interests",
+          "id": "",
+          "type": "checkbox",
+          "label": "Technology",
+          "required": false,
+          "options": [
+            "technology",
+            "sports",
+            "arts",
+            "science",
+            "travel",
+            "food"
+          ],
+          "placeholder": ""
+        },
+        {
+          "name": "termsAccepted",
+          "id": "",
+          "type": "checkbox",
+          "label": "I accept the Terms and Conditions",
+          "required": true,
+          "options": [
+            "on"
+          ],
+          "placeholder": ""
+        },
+        {
+          "name": "gender",
+          "id": "gender",
+          "type": "select",
+          "label": "Gender",
+          "required": false,
+          "options": [
+            "Select Gender",
+            "Male",
+            "Female",
+            "Non-binary",
+            "Other",
+            "Prefer not to say"
+          ],
+          "placeholder": ""
+        },
+        {
+          "name": "country",
+          "id": "country",
+          "type": "select",
+          "label": "Country",
+          "required": false,
+          "options": [
+            "Select Country",
+            "United States",
+            "Canada",
+            "United Kingdom",
+            "Australia",
+            "Germany",
+            "France",
+            "Japan",
+            "Brazil",
+            "India",
+            "Other"
+          ],
+          "placeholder": ""
+        }
+      ],
+      "submit_button": "Create Account"
+    },
+    {
+      "name": "Activity Form",
+      "id": "activity_form",
+      "fields": [
+        {
+          "name": "activityName",
+          "id": "activityName",
+          "type": "text",
+          "label": "",
+          "required": true,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "location",
+          "id": "location",
+          "type": "text",
+          "label": "",
+          "required": true,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "date",
+          "id": "date",
+          "type": "date",
+          "label": "",
+          "required": true,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "startTime",
+          "id": "startTime",
+          "type": "time",
+          "label": "",
+          "required": true,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "endTime",
+          "id": "endTime",
+          "type": "time",
+          "label": "",
+          "required": true,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "participants",
+          "id": "participants",
+          "type": "text",
+          "label": "",
+          "required": false,
+          "options": [],
+          "placeholder": "e.g. John Smith, Jane Doe"
+        },
+        {
+          "name": "priority",
+          "id": "",
+          "type": "radio",
+          "label": "Low",
+          "required": false,
+          "options": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "placeholder": ""
+        },
+        {
+          "name": "needsEquipment",
+          "id": "",
+          "type": "checkbox",
+          "label": "This activity requires equipment",
+          "required": false,
+          "options": [
+            "on"
+          ],
+          "placeholder": ""
+        },
+        {
+          "name": "notifications",
+          "id": "",
+          "type": "checkbox",
+          "label": "Email",
+          "required": false,
+          "options": [
+            "email",
+            "sms",
+            "push",
+            "calendar"
+          ],
+          "placeholder": ""
+        },
+        {
+          "name": "description",
+          "id": "description",
+          "type": "textarea",
+          "label": "Description",
+          "required": false,
+          "options": [],
+          "placeholder": ""
+        },
+        {
+          "name": "activityType",
+          "id": "activityType",
+          "type": "select",
+          "label": "Activity Type",
+          "required": true,
+          "options": [
+            "Select Activity Type",
+            "Meeting",
+            "Training",
+            "Workshop",
+            "Conference",
+            "Team Building",
+            "Sports",
+            "Social",
+            "Other"
+          ],
+          "placeholder": ""
+        },
+        {
+          "name": "recurrence",
+          "id": "recurrence",
+          "type": "select",
+          "label": "Recurrence",
+          "required": false,
+          "options": [
+            "One-time",
+            "Daily",
+            "Weekly",
+            "Bi-weekly",
+            "Monthly"
+          ],
+          "placeholder": ""
+        }
+      ],
+      "submit_button": "Schedule Activity"
+    }
+  ],
+  "screenshots": [
+    "form_screenshots/full_page.png"
+  ],
+  "error": null
+}

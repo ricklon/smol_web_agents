@@ -293,3 +293,69 @@ Input validation error: `inputs` tokens + `max_new_tokens` must be <= 131072. Gi
 2025-03-20 12:19:59,225 - INFO - Completed step 3/15: Thinking...
 2025-03-20 12:19:59,225 - ERROR - Error running task 'Find Forms': Error in generating model output:
 (ReadTimeoutError("HTTPSConnectionPool(host='router.huggingface.co', port=443): Read timed out. (read timeout=120)"), '(Request ID: bbe0f814-63e3-411e-857f-6d156dae6842)')
+2025-03-20 15:59:35,440 - INFO - Initializing Chrome browser...
+2025-03-20 15:59:35,441 - INFO - ====== WebDriver manager ======
+2025-03-20 15:59:35,576 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 15:59:35,724 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 15:59:35,843 - INFO - Driver [/Users/rianders/.wdm/drivers/chromedriver/mac64/134.0.6998.90/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-20 15:59:37,256 - INFO - Browser initialized successfully!
+2025-03-20 16:00:17,866 - ERROR - Error during browser test: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.118)
+Stacktrace:
+0   chromedriver                        0x0000000100c09798 cxxbridge1$str$ptr + 2785964
+1   chromedriver                        0x0000000100c01d70 cxxbridge1$str$ptr + 2754692
+2   chromedriver                        0x0000000100755ea8 cxxbridge1$string$len + 92928
+3   chromedriver                        0x000000010072fa78 chromedriver + 129656
+4   chromedriver                        0x00000001007c5498 cxxbridge1$string$len + 549104
+5   chromedriver                        0x00000001007de178 cxxbridge1$string$len + 650704
+6   chromedriver                        0x000000010079135c cxxbridge1$string$len + 335796
+7   chromedriver                        0x0000000100bcec68 cxxbridge1$str$ptr + 2545532
+8   chromedriver                        0x0000000100bd1f34 cxxbridge1$str$ptr + 2558536
+9   chromedriver                        0x0000000100baec98 cxxbridge1$str$ptr + 2414508
+10  chromedriver                        0x0000000100bd2794 cxxbridge1$str$ptr + 2560680
+11  chromedriver                        0x0000000100b9fb34 cxxbridge1$str$ptr + 2352712
+12  chromedriver                        0x0000000100bf23f0 cxxbridge1$str$ptr + 2690820
+13  chromedriver                        0x0000000100bf2578 cxxbridge1$str$ptr + 2691212
+14  chromedriver                        0x0000000100c019e4 cxxbridge1$str$ptr + 2753784
+15  libsystem_pthread.dylib             0x0000000183afc2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000183af70fc thread_start + 8
+
+2025-03-20 16:00:42,013 - INFO - Initializing Chrome browser...
+2025-03-20 16:00:42,014 - INFO - ====== WebDriver manager ======
+2025-03-20 16:00:42,171 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 16:00:42,288 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-20 16:00:42,396 - INFO - Driver [/Users/rianders/.wdm/drivers/chromedriver/mac64/134.0.6998.90/chromedriver-mac-arm64/chromedriver] found in cache
+2025-03-20 16:00:43,402 - INFO - Browser initialized successfully!
+2025-03-20 16:00:43,402 - INFO - Initializing agent with model: meta-llama/Llama-3.3-70B-Instruct
+2025-03-20 16:00:43,410 - INFO - Agent created successfully
+2025-03-20 16:00:43,410 - INFO - Setting up agent with helium imports
+2025-03-20 16:00:43,412 - INFO - Successfully imported helium
+2025-03-20 16:00:47,577 - INFO - Taking screenshot for step 1
+2025-03-20 16:00:49,315 - INFO - Captured browser screenshot: (1000, 850) pixels
+2025-03-20 16:00:49,326 - INFO - Screenshot saved to disk: screenshots/step_1_20250320_160049.png
+2025-03-20 16:00:49,330 - INFO - Completed step 1/15: Thinking...
+2025-03-20 16:01:10,964 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/login_form.png
+2025-03-20 16:01:11,356 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/signup_form.png
+2025-03-20 16:01:11,752 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/activity_form.png
+2025-03-20 16:01:11,752 - INFO - Taking screenshot for step 2
+2025-03-20 16:01:13,346 - INFO - Captured browser screenshot: (1000, 850) pixels
+2025-03-20 16:01:13,359 - INFO - Screenshot saved to disk: screenshots/step_2_20250320_160113.png
+2025-03-20 16:01:13,363 - INFO - Completed step 2/15: Thinking...
+2025-03-20 16:02:03,183 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/login_form.png
+2025-03-20 16:02:03,561 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/signup_form.png
+2025-03-20 16:02:03,920 - INFO - Screenshot saved to /Users/rianders/Documents/GitHub/smol_web_agents/screenshots/activity_form.png
+2025-03-20 16:02:03,920 - INFO - Taking screenshot for step 3
+2025-03-20 16:02:05,510 - INFO - Captured browser screenshot: (1000, 850) pixels
+2025-03-20 16:02:05,524 - INFO - Screenshot saved to disk: screenshots/step_3_20250320_160205.png
+2025-03-20 16:02:05,528 - INFO - Completed step 3/15: Thinking...
+2025-03-20 16:03:34,279 - INFO - Taking screenshot for step 4
+2025-03-20 16:03:35,886 - INFO - Captured browser screenshot: (1000, 850) pixels
+2025-03-20 16:03:35,902 - INFO - Screenshot saved to disk: screenshots/step_4_20250320_160335.png
+2025-03-20 16:03:35,905 - INFO - Completed step 4/15: Thinking...
+2025-03-20 16:05:35,952 - INFO - Taking screenshot for step 5
+2025-03-20 16:05:37,541 - INFO - Captured browser screenshot: (1000, 850) pixels
+2025-03-20 16:05:37,555 - INFO - Screenshot saved to disk: screenshots/step_5_20250320_160537.png
+2025-03-20 16:05:37,558 - INFO - Completed step 5/15: Thinking...
+2025-03-20 16:05:37,559 - ERROR - Error running task 'Find Forms': Error in generating model output:
+(ReadTimeoutError("HTTPSConnectionPool(host='router.huggingface.co', port=443): Read timed out. (read timeout=120)"), '(Request ID: c942ec00-b66c-4211-9751-22c3a6a35a2c)')

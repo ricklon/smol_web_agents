@@ -43,3 +43,45 @@ Stacktrace:
 2025-03-20 13:49:13,306 - INFO - Clicking on Activity Form button
 2025-03-20 13:49:14,486 - INFO - Screenshot saved to form_screenshots/activity_form_form.png
 2025-03-20 13:49:14,753 - INFO - Closing browser
+2025-03-20 16:08:52,658 - INFO - Initializing browser...
+2025-03-20 16:08:53,570 - INFO - Browser initialized successfully
+2025-03-20 16:08:53,570 - INFO - Navigating to http://localhost:5174
+2025-03-20 16:08:55,827 - INFO - Screenshot saved to form_screenshots/full_page.png
+2025-03-20 16:08:55,846 - INFO - Found form types: ['Login Form', 'Signup Form', 'Activity Form']
+2025-03-20 16:08:55,846 - INFO - Clicking on Login Form button
+2025-03-20 16:08:57,071 - INFO - Screenshot saved to form_screenshots/login_form_form.png
+2025-03-20 16:08:57,130 - INFO - Clicking on Signup Form button
+2025-03-20 16:08:58,336 - INFO - Screenshot saved to form_screenshots/signup_form_form.png
+2025-03-20 16:08:58,599 - INFO - Clicking on Activity Form button
+2025-03-20 16:08:59,794 - INFO - Screenshot saved to form_screenshots/activity_form_form.png
+2025-03-20 16:09:00,062 - INFO - Closing browser
+2025-03-20 20:57:30,396 - INFO - Initializing browser...
+2025-03-20 20:57:31,303 - INFO - Browser initialized successfully
+2025-03-20 20:57:31,303 - INFO - Navigating to http://localhost:5174
+2025-03-20 20:57:33,603 - INFO - Screenshot saved to form_screenshots/full_page.png
+2025-03-20 20:57:33,612 - INFO - Found form types: []
+2025-03-20 20:57:33,613 - INFO - Closing browser
+2025-03-20 20:58:32,156 - INFO - Initializing browser...
+2025-03-20 20:58:32,785 - INFO - Browser initialized successfully
+2025-03-20 20:58:32,785 - INFO - Navigating to http://localhost:5174
+2025-03-20 20:58:35,005 - INFO - Screenshot saved to form_screenshots/full_page.png
+2025-03-20 20:58:35,025 - INFO - Found form types: ['Login Form', 'Signup Form', 'Activity Form']
+2025-03-20 20:58:35,025 - INFO - Clicking on Login Form button
+2025-03-20 20:58:36,223 - INFO - Screenshot saved to form_screenshots/login_form_form.png
+2025-03-20 20:58:36,286 - INFO - Clicking on Signup Form button
+2025-03-20 20:58:37,449 - INFO - Screenshot saved to form_screenshots/signup_form_form.png
+2025-03-20 20:58:37,740 - INFO - Clicking on Activity Form button
+2025-03-20 20:58:38,916 - INFO - Screenshot saved to form_screenshots/activity_form_form.png
+2025-03-20 20:58:39,186 - INFO - Closing browser
+2025-03-20 20:58:56,919 - INFO - Initializing browser...
+2025-03-20 20:58:57,535 - INFO - Browser initialized successfully
+2025-03-20 20:58:57,535 - INFO - Navigating to http://localhost:5174
+2025-03-20 20:58:59,769 - INFO - Screenshot saved to form_screenshots/full_page.png
+2025-03-20 20:58:59,789 - INFO - Found form types: ['Login Form', 'Signup Form', 'Activity Form']
+2025-03-20 20:58:59,789 - INFO - Clicking on Login Form button
+2025-03-20 20:59:00,956 - INFO - Screenshot saved to form_screenshots/login_form_form.png
+2025-03-20 20:59:01,019 - INFO - Clicking on Signup Form button
+2025-03-20 20:59:02,197 - INFO - Screenshot saved to form_screenshots/signup_form_form.png
+2025-03-20 20:59:02,461 - INFO - Clicking on Activity Form button
+2025-03-20 20:59:03,630 - INFO - Screenshot saved to form_screenshots/activity_form_form.png
+2025-03-20 20:59:03,901 - INFO - Closing browser

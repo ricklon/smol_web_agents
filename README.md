@@ -1,6 +1,42 @@
-# SMOLagents Tools Documentation
+# SMOLagents Web Tools
 
-This document provides an overview of the available tools in the SMOLagents framework and how to use them.
+This repository provides a collection of tools and examples for building small, efficient web agents with Python.
+
+## Project Organization
+
+The project is organized into the following categories:
+
+### Web Automation
+Tools for automating browser interactions and web navigation:
+- `web_browser.py` - Core web browser automation
+- `basic_web_agent.py` - Simple web agent implementation
+- `basic_agent.py` - Core agent functionality
+- `helium_test.py` - Browser automation tests
+- `all_base_tools.py` - Utility tools for agents
+- `basic_fetch.py` - Basic web content fetching
+
+### Form Tools
+Specialized tools for analyzing and interacting with web forms:
+- `form_analyzer.py` - Analyzes and extracts form fields
+- `form_review.py` - Reviews and validates forms
+- `what_forms_are_on_page.py` - Detects forms on web pages
+- `form_analyzer_output/form_interaction.py` - Generated form interaction scripts
+
+### Image Tools
+Tools for working with images and visual content:
+- `image_to_text_tool.py` - Converts images to text using SmolVLM2
+- `image_save_tool.py` - Saves and manipulates images
+- `image_gen_agent.py` - Text-to-image generation with prompt enhancement
+
+### Basic Examples
+Simple examples to understand core functionality:
+- `demo_image_to_text.py` - Simple demonstration of image-to-text conversion
+- `basic_fetch.py` - Example of fetching web content
+
+### UI Examples
+Examples with user interfaces:
+- `gradio_image_agent.py` - Gradio interface for image generation agent
+- `gradio_image_to_text.py` - Gradio UI for image-to-text processing
 
 ## Default Toolbox
 
@@ -16,106 +52,20 @@ When initializing an agent with `add_base_tools=True`, the following tools are a
 | **PythonInterpreterTool** | Executes Python code (only added to ToolCallingAgent) | `from smolagents import PythonInterpreterTool` |
 | **MlxInterpreterTool** | For machine learning with MLX (only if MLX is installed) | `from smolagents import MlxInterpreterTool` |
 
-**Note**: For `CodeAgent`, `PythonInterpreterTool` is not added since it already has built-in code execution capability.
+## Getting Started
 
-## Basic Example
+1. Install dependencies with `uv pip install -e .`
+2. Sync dependencies with `uv sync`
+3. Start with basic examples to understand core functionality
+4. Progress to more complex web automation and form analysis tools
 
-```python
-from smolagents import CodeAgent, HfApiModel
+## Development
 
-# Initialize model
-model = HfApiModel()  # Uses default free model
+- **Lint Code**: `ruff check .`
+- **Type Check**: `mypy .`
+- **Format Code**: `ruff format .`
 
-# Create agent with default tools
-agent = CodeAgent(
-    tools=[],  # No additional tools
-    model=model,
-    add_base_tools=True  # Add all default tools
-)
-
-# Run the agent
-result = agent.run(
-    "Search for information about quantum computing and save a summary to a file."
-)
-```
-
-## Using Individual Tools
-
-You can use the tools directly without creating an agent:
-
-```python
-from smolagents import DuckDuckGoSearchTool
-
-# Initialize the tool
-search_tool = DuckDuckGoSearchTool()
-
-# Use the tool
-results = search_tool("Current developments in quantum computing")
-print(results)
-```
-
-## Creating Custom Tools
-
-Create your own tool using the `@tool` decorator:
-
-```python
-from smolagents import tool
-
-@tool
-def my_custom_tool(input_param: str) -> str:
-    """
-    Description of what this tool does.
-    
-    Args:
-        input_param: Description of the input parameter.
-    """
-    # Tool implementation
-    result = input_param.upper()  # Just an example
-    return result
-```
-
-## Loading Tools from Hub
-
-You can load community-created tools from the Hugging Face Hub:
-
-```python
-from smolagents import load_tool, CodeAgent, HfApiModel
-
-# Load a tool from the Hub
-image_generation_tool = load_tool("m-ric/text-to-image", trust_remote_code=True)
-
-# Create an agent with the loaded tool
-model = HfApiModel()
-agent = CodeAgent(tools=[image_generation_tool], model=model)
-
-# Run the agent
-agent.run("Generate an image of a cat in space")
-```
-
-## Image Generation Example
-
-Here's a complete example of an image generation agent:
-
-```python
-from smolagents import CodeAgent, HfApiModel, load_tool
-
-# Load image generation tool
-image_generation_tool = load_tool("m-ric/text-to-image", trust_remote_code=True)
-
-# Initialize the model
-model = HfApiModel(model_id="Qwen/Qwen2.5-Coder-32B-Instruct")
-
-# Create the agent
-agent = CodeAgent(tools=[image_generation_tool], model=model)
-
-# Run the agent
-result = agent.run(
-    "Improve this prompt, then generate an image of it.", 
-    additional_args={'user_prompt': 'A rabbit wearing a space suit'}
-)
-```
-
-## Demos
+## Demo Examples
 
 This repository contains several demo scripts showcasing different SMOLagents capabilities:
 
@@ -152,15 +102,12 @@ with open("form_analyzer_output/form_interaction.py", "w") as f:
     f.write(script)
 ```
 
-### Key Features
-
-- **Automatic Form Detection**: Identifies all forms on a web page
-- **Field Analysis**: Extracts details about form fields (type, label, required status, options)
-- **Screenshot Capture**: Takes screenshots of each form for visual verification
-- **Code Generation**: Automatically creates Helium scripts for form automation
-- **AI Integration**: Works with SMOLagents for intelligent form testing
-
 For more details, see the [Form Analyzer documentation](form_analyzer_readme.md).
+
+## Requirements
+
+- Python 3.12+
+- Primary dependencies: smolagents, selenium, helium, pillow
 
 ## Resources
 

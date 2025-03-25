@@ -11,6 +11,7 @@ dependencies = [
     "pillow>=11.1.0",
     "selenium>=4.29.0",
     "smolagents>=1.11.0",
+    "torch>=2.6.0",
     "transformers>=4.49.0",
     "webdriver-manager>=4.0.2",
 ]
